@@ -1,0 +1,165 @@
+#mytheader {
+  Display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding-top: 0px;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  color: MediumAquamarine;
+  background-color: white;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+body {
+  margin-top: 0px;
+}
+
+.logo .img {
+  border-right: 1px solid MediumAquamarine;
+  margin-right: 12px;
+}
+
+#headtext {
+  margin-left: 20px;
+}
+
+.headlinks span {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.mainpage {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div, p, h2 {
+<!-- border: 1px solid black; -->
+  display: block;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column .large {
+  width: 630px;
+}
+
+.leadpic {
+  display: flex;
+  background-image: url("../images/MainStory.png");
+  height: 300px;
+  margin-top: 0px;
+}
+
+.leadpic .pictext {
+  font-size: 40px;
+}
+
+.earthspin {
+  display: flex;
+  background-image: url("../images/FallSeason.png");
+  height: 300px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.memories {
+  display: flex;
+  background-image: url("../images/Cameraman.png");
+  height: 300px;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.catcontrol {
+  display: flex;
+  background-image: url("../images/CatCEO.png");
+  height: 300px;
+  margin-top: 15px;
+}
+
+.pictextmain {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+}
+
+.pictext {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column .medium {
+  width: 300px;
+}
+
+.column .small {
+  width: 240px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  width: 630px;
+  margin-top: 17px;
+}
+
+.story {
+  Display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.storytext {
+  height: 250px;
+}
+
+.newsbites {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 11px 20px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+}
